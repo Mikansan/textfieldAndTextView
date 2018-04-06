@@ -13,6 +13,8 @@
 		18DA986E207779B000129651 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18DA986D207779B000129651 /* Assets.xcassets */; };
 		18DA9871207779B000129651 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18DA986F207779B000129651 /* LaunchScreen.storyboard */; };
 		18DA9874207779B000129651 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DA9873207779B000129651 /* main.m */; };
+		18DA987C207779D300129651 /* UITextField+Custon.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DA987A207779D300129651 /* UITextField+Custon.m */; };
+		18DA987F207779F900129651 /* UITextView+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DA987E207779F900129651 /* UITextView+Custom.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		18DA9870207779B000129651 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18DA9872207779B000129651 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18DA9873207779B000129651 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18DA987A207779D300129651 /* UITextField+Custon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Custon.m"; sourceTree = "<group>"; };
+		18DA987B207779D300129651 /* UITextField+Custon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Custon.h"; sourceTree = "<group>"; };
+		18DA987D207779F900129651 /* UITextView+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Custom.h"; sourceTree = "<group>"; };
+		18DA987E207779F900129651 /* UITextView+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Custom.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				18DA9865207779AF00129651 /* AppDelegate.m */,
 				18DA9867207779AF00129651 /* ViewController.h */,
 				18DA9868207779AF00129651 /* ViewController.m */,
+				18DA987B207779D300129651 /* UITextField+Custon.h */,
+				18DA987A207779D300129651 /* UITextField+Custon.m */,
+				18DA987D207779F900129651 /* UITextView+Custom.h */,
+				18DA987E207779F900129651 /* UITextView+Custom.m */,
 				18DA986A207779AF00129651 /* Main.storyboard */,
 				18DA986D207779B000129651 /* Assets.xcassets */,
 				18DA986F207779B000129651 /* LaunchScreen.storyboard */,
@@ -142,6 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				18DA9869207779AF00129651 /* ViewController.m in Sources */,
+				18DA987C207779D300129651 /* UITextField+Custon.m in Sources */,
+				18DA987F207779F900129651 /* UITextView+Custom.m in Sources */,
 				18DA9874207779B000129651 /* main.m in Sources */,
 				18DA9866207779AF00129651 /* AppDelegate.m in Sources */,
 			);

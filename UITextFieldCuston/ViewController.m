@@ -7,8 +7,9 @@
 //
 
 #import "ViewController.h"
-
-@interface ViewController ()
+#import "UITextField+Custon.h"
+#import "UITextView+Custom.h"
+@interface ViewController ()<UITextViewDelegate,UITextFieldDelegate>
 
 @end
 
@@ -16,7 +17,22 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    UITextView *text=[[UITextView alloc]initWithFrame:CGRectMake(10, 100, 300, 180)];
+//    text.font=[UIFont systemFontOfSize:20];
+    text.backgroundColor=[UIColor yellowColor];
+    text.placehloderColor=[UIColor redColor];
+    text.placehloder=@"palcehloder";
+    text.delegate=self;
+    [self.view addSubview:text];
+    
+    UITextField *field=[[UITextField alloc]initWithFrame:CGRectMake(10, 300, 300, 40)];
+    field.borderStyle=UITextBorderStyleRoundedRect;
+    field.delegate=self;
+    field.space=20;
+    field.placeholder=@"palcehloder";
+    field.placehloderFont=10;
+    field.placehloderColor=[UIColor redColor];
+    [self.view addSubview:field];
 }
 
 
